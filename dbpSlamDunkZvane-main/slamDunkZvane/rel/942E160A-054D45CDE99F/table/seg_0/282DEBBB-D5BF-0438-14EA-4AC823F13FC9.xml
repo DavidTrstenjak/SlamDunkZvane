@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="282DEBBB-D5BF-0438-14EA-4AC823F13FC9" name="Narudzba">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:26 UTC</createdTime>
+<generatorID>ED9D30A4-06F2-48CC-88F7-6308606D9552</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<abbreviation>NAR</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Narudzba_ID" id="BA4A4355-462F-9DAF-D066-72682C3BD12A">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:26 UTC</createdTime>
+<generatorID>93C4E9C6-2AE7-EF53-B508-182C4BE09879</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Vrijeme" id="D5FCDBF7-156F-FAF3-C60F-AE0E4A3FAA01">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:26 UTC</createdTime>
+<generatorID>AB79E716-9786-B195-0A28-AEE2CD9D771C</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum" id="04781C0D-6BEB-A521-E58D-A6E8D7DCB0CE">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:26 UTC</createdTime>
+<generatorID>11261DA4-B6FB-BAA4-730C-B4C82936FBBD</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kupac_KUP_Kupac_ID" id="06D54387-86BC-1C31-E984-0A546BCD5671">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:26 UTC</createdTime>
+<generatorID>FE6184C0-E3CF-326C-88AE-CF2705AE6EED</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="556C83E2-AB81-EFB3-1281-A04A11877C2B" referredColumn="FEB2F49B-3CCD-7703-F600-B8104FA3BE6B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DBD99E8C-AFF6-9BA2-4A7A-9F48334BAAA9" name="Narudzba_PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:26 UTC</createdTime>
+<generatorID>EB29AA14-EA57-3227-BA21-46E85C87E5B8</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA4A4355-462F-9DAF-D066-72682C3BD12A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="50CACC44-2B0D-49BA-4227-57FA45664B0E" name="Narudzba_Kupac_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:26 UTC</createdTime>
+<generatorID>5BDC9B76-DA2A-5608-AD32-533EDAE50396</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06D54387-86BC-1C31-E984-0A546BCD5671"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

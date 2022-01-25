@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C6E3270F-497D-047A-C0BB-6C2C612F221F" name="Adresa_prodajnog_predstavnika">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:26 UTC</createdTime>
+<generatorID>DE00B8EE-6131-8C4F-A44D-3ABDCCC514E5</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<abbreviation>ADP</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_adresa_pp" id="8A9EFFC8-6031-F5F4-EB08-E45EC65AAA1D">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:26 UTC</createdTime>
+<generatorID>95F5C26D-4CF1-4C35-6715-7B1710A7B201</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ime_ulice" id="55E1EA6E-1DD5-F80D-F447-47F3BB752033">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:26 UTC</createdTime>
+<generatorID>644C8FFD-6E37-1E88-254D-9CA14B58710A</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Broj_ulice" id="9EEA1A58-5403-2CB8-80AE-AF740E52CAA3">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:26 UTC</createdTime>
+<generatorID>50994B40-4945-B1BE-0360-BD90D6F937B0</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Grad" id="FA1C0352-905E-3B1B-C05A-D9EDA2A1E310">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:26 UTC</createdTime>
+<generatorID>E27BC83E-60B5-5204-4EBC-942D7D61DA9E</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Postanski_broj" id="4C570422-60B1-BF1C-B3FA-DB175A0366A3">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:26 UTC</createdTime>
+<generatorID>89988549-3C6E-0AA7-F432-405F9C5740E3</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Drzava" id="355859C1-DA48-4BAB-3C28-290DE45E06BB">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:26 UTC</createdTime>
+<generatorID>36E91F88-C2E8-71CE-ABA0-90B76DCD16DB</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prodajni_predstavnik_e-mail" id="A1F94E3B-96A4-EFC3-A1F9-AC1879F66A00">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:26 UTC</createdTime>
+<generatorID>106E6C23-FC27-7D79-4749-FBE4977543C0</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3591E946-2C37-BCB7-0AA0-D8E66DFADA0E" referredColumn="9B6548BD-D454-5F71-C7D9-E234EB04C2E2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="137A35C9-A46C-A2BA-44CA-0C4E8EA09703" name="Adresa_prodajnog_predstavnika_PK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:26 UTC</createdTime>
+<generatorID>DC2C3701-340F-B45B-1483-25F7BBD4E54D</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A9EFFC8-6031-F5F4-EB08-E45EC65AAA1D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F4168700-7037-973F-73F4-19A787766945" name="Adresa_prodajnog_predstavnika__IDX">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:26 UTC</createdTime>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>AEEAE477-EBA0-BA26-0790-0204BCBA95D4</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="A1F94E3B-96A4-EFC3-A1F9-AC1879F66A00"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9811199B-E1BD-9FB8-C5CA-DBD0C7DB9A20" name="Adresa_prodajnog_predstavnika_Prodajni_predstavnik_FK">
+<createdBy>Korisnik</createdBy>
+<createdTime>2022-01-25 11:44:26 UTC</createdTime>
+<generatorID>AEEAE477-EBA0-BA26-0790-0204BCBA95D4</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A1F94E3B-96A4-EFC3-A1F9-AC1879F66A00"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
